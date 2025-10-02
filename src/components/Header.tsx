@@ -509,7 +509,7 @@ export function Header() {
           </button>
 
           <Link href="/" className="flex-shrink-0 shine-effect">
-            <Image src={`/logoSorpak.png`} alt="Logo" width={120} height={40} unoptimized={true}/>
+            <Image src={`/logoSorpack.png`} alt="Logo" width={120} height={40} unoptimized={true}/>
           </Link>
 
           <div className="flex items-center gap-2">
@@ -604,7 +604,7 @@ export function Header() {
             <div className="h-full flex flex-col">
               {/* Cabeçalho do menu */}
               <div className="p-4 border-b border-gray-200 flex justify-between items-center bg-gray-50">
-                <Image src={`/logoSorpak.png`} alt="Logo" width={100} height={30} unoptimized={true}/>
+                <Image src={`/logoSorpack.png`} alt="Logo" width={100} height={30} unoptimized={true}/>
                 <button 
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-200 hover:bg-red-100 text-gray-600 hover:text-red-500 transition-all duration-300 shadow-sm border border-gray-300 hover:border-red-400"
