@@ -102,7 +102,7 @@ export function BannerCarousel() {
           banner.Tipo === (isMobile ? 'mobile' : 'desktop') && (
             <SwiperSlide key={index} className="relative w-full h-full">
               {banner.Link ? (
-                <Link href={banner.Link} className="block w-full h-full">
+                <Link href={'/'} className="block w-full h-full">
                   <div className="absolute inset-0">
                     <Image
                       src={banner.URL || ''}
