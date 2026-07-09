@@ -91,7 +91,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   async function authenticate() {
     try {
-      const response = await fetch('https://pedidoexterno.mcnsistemas.net.br/api/autenticacao/autenticar', {
+      const response = await fetch('https://pedidoexterno.mcnsistemas.com.br/api/autenticacao/autenticar', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -65,7 +65,7 @@ export default function Home() {
         try {
           const credentials = btoa('lu813em9u3l510a:wf4g5ru813em9u3l510a');
           const response = await fetch(
-            'https://pedidoexterno.mcnsistemas.net.br/api/produto/ecommerce/paginado?empresa=0&pagina=1&limite=8',
+            'https://pedidoexterno.mcnsistemas.com.br/api/produto/ecommerce/paginado?empresa=0&pagina=1&limite=8',
             {
               headers: { 'Authorization': `Basic ${credentials}` },
               next: { revalidate: 3600 }

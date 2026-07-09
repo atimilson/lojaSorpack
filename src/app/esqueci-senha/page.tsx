@@ -36,7 +36,7 @@ export default function EsqueciSenhaPage() {
       
       const token = localStorage.getItem('token');
       const response = await fetch(
-        `https://pedidoexterno.mcnsistemas.net.br/api/ecommerce/usuario/recuperar?email=${encodeURIComponent(email)}`,
+        `https://pedidoexterno.mcnsistemas.com.br/api/ecommerce/usuario/recuperar?email=${encodeURIComponent(email)}`,
         {
           method: 'GET',
           headers: {

@@ -181,7 +181,7 @@ export async function POST(request: Request) {
       const cookieStore = cookies();
       const token = cookieStore.get('token')?.value;
 
-      const pedidoResponse = await fetch('https://pedidoexterno.mcnsistemas.net.br/api/pedidoecommerce', {
+      const pedidoResponse = await fetch('https://pedidoexterno.mcnsistemas.com.br/api/pedidoecommerce', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

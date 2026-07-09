@@ -1,6 +1,6 @@
 import { useAuth } from '@/contexts/AuthContext';
 
-const BASE_URL = 'https://pedidoexterno.mcnsistemas.net.br';
+const BASE_URL = 'https://pedidoexterno.mcnsistemas.com.br';
 
 type CustomConfig = {
   url: string;

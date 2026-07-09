@@ -23,7 +23,7 @@ export const useRegister = () => {
       
       // Usar fetch diretamente ao invés do SWR
       const token = localStorage.getItem('token');
-      const response = await fetch('https://pedidoexterno.mcnsistemas.net.br/api/ecommerce/usuario', {
+      const response = await fetch('https://pedidoexterno.mcnsistemas.com.br/api/ecommerce/usuario', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

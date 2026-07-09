@@ -109,7 +109,7 @@ export default function PedidosPage() {
         const email = usuario || '';
         
         const response = await fetch(
-          `https://pedidoexterno.mcnsistemas.net.br/api/pedidoecommerce/listar?empresa=0&usuario=${encodeURIComponent(email)}&data_inicio=${formatDate(dataInicio)}&data_fim=${formatDate(dataFim)}`,
+          `https://pedidoexterno.mcnsistemas.com.br/api/pedidoecommerce/listar?empresa=0&usuario=${encodeURIComponent(email)}&data_inicio=${formatDate(dataInicio)}&data_fim=${formatDate(dataFim)}`,
           {
             headers: {
               'accept': 'application/json',

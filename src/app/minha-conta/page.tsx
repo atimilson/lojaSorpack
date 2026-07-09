@@ -121,9 +121,9 @@ export default function LoginPage() {
   // Modifique a função verificarCliente
   const verificarCliente = async (documento: string) => {
     try {
-      // const response: any = await axios.get(`https://pedidoexterno.mcnsistemas.net.br/api/cliente?cliente=0&CPFouCNPJ=${documento}`);
+      // const response: any = await axios.get(`https://pedidoexterno.mcnsistemas.com.br/api/cliente?cliente=0&CPFouCNPJ=${documento}`);
       const token = localStorage.getItem('token');
-      const response: any = await fetch(`https://pedidoexterno.mcnsistemas.net.br/api/cliente?cliente=0&CPFouCNPJ=${documento}`,
+      const response: any = await fetch(`https://pedidoexterno.mcnsistemas.com.br/api/cliente?cliente=0&CPFouCNPJ=${documento}`,
         {
           method: 'GET',
           headers: {
@@ -349,7 +349,7 @@ export default function LoginPage() {
   const verificarUsuarioPorEmail = async (email: string) => {
     try {
       const token = await localStorage.getItem('token');
-      const response = await fetch(`https://pedidoexterno.mcnsistemas.net.br/api/ecommerce/usuario/existe?email=${encodeURIComponent(email)}`,
+      const response = await fetch(`https://pedidoexterno.mcnsistemas.com.br/api/ecommerce/usuario/existe?email=${encodeURIComponent(email)}`,
         {
           method: 'GET',
           headers: {

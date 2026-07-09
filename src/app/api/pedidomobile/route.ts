@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { PedidoDto, RetornoPedido } from '@/api/generated/mCNSistemas.schemas';
 
 // URL base da API externa
-const BASE_URL = 'https://pedidoexterno.mcnsistemas.net.br';
+const BASE_URL = 'https://pedidoexterno.mcnsistemas.com.br';
 
 export async function POST(req: Request) {
   try {
